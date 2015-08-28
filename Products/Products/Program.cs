@@ -11,6 +11,8 @@ namespace Products
         static void Main(string[] args)
         {
             Product product = new Product();
+
+            Size s = new BoxSize(1,1,1);
         }
 
         
