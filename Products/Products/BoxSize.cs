@@ -34,10 +34,16 @@ namespace Products
        public int W { get; set;}
        public int H { get; set; }
 
+
+
+
        public override string GetAsText()
        {
            return String.Format("{0}x{1}x{2} mm", L,W,H);
        }
+
+
+
 
     }
 }

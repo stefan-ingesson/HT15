@@ -11,6 +11,7 @@ namespace Products
         {
             return "";
         }
+
         public virtual int GetAsInt() { return 1; }
 
     }
